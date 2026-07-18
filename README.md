@@ -1,34 +1,19 @@
 # KabyMangadexDL
 卡比的mangadex下载器
 # MangadexDL
-
-文件结构
+```
 KabyMangadexDl/
-├──
 main_app.py < 运行这个，主GUI（下载队列 + 卷本构建 + 设置）-
-├── 
-mangadex_api.py
-├── 
-download_manager.py  
-├── 
-chapter_parser.py     
-├── 
-volume_manager.py 
-├──
-builder.py         
-├── 
-exporter.py           
-├── 
-settings.py          
-└── requirements.txt
 ```
 ## 安装（虚拟环境，装在G盘不占C盘）
-把整个文件夹放到 `指定目录` 之后：
-手动敲命令：
+把整个文件夹放到 `指定目录` 之后手动敲命令：
 ```
 cd 指定目录
+```
 python -m venv venv
+```
 venv\Scripts\activate
+```
 pip install --cache-dir .\pipcache -r requirements.txt
 ```
 之后运行程序：
